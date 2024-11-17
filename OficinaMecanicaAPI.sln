@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35219.272
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OficinaMecanicaAPI", "OficinaMecanicaAPI\OficinaMecanicaAPI.csproj", "{FF557787-9D42-4B98-B9C2-FE7F17A2990A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF557787-9D42-4B98-B9C2-FE7F17A2990A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF557787-9D42-4B98-B9C2-FE7F17A2990A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF557787-9D42-4B98-B9C2-FE7F17A2990A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF557787-9D42-4B98-B9C2-FE7F17A2990A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {813C5C1E-87C1-43DC-9C82-792B43BB6B89}
+	EndGlobalSection
+EndGlobal
