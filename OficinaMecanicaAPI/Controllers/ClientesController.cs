@@ -17,7 +17,8 @@ namespace OficinaMecanicaAPI.Controllers
         {
             this.dbContext = dbContext;
         }
-
+         
+        // Retorna todos os clientes registados na base de dados
         [HttpGet]
         public IActionResult GetAllClients()
         {
@@ -26,8 +27,10 @@ namespace OficinaMecanicaAPI.Controllers
             return Ok(clientes);
         }
 
+     
+        // Retorna um cliente pelo seu Id
         [HttpGet]
-        // localhost:7246/api/Clientes/{id}
+        //https://localhost:7246/api/Clientes/{id}
         [Route("{id:guid}")]
         public IActionResult GetClienteById(Guid id)
         {
@@ -41,6 +44,7 @@ namespace OficinaMecanicaAPI.Controllers
             return Ok(cliente);
         }
 
+        // Adiciona um novo cliente à base de dados
         [HttpPost]
         public IActionResult AddCliente(ClienteDto clienteDto)
         {
@@ -59,6 +63,7 @@ namespace OficinaMecanicaAPI.Controllers
 
         }
 
+        // Actualizar os dados de um determinado cliente 
         [HttpPut]
         [Route("{id:guid}")]
         public IActionResult UpdateCliente(Guid id, UpdateClienteDto updateClienteDto)
@@ -79,6 +84,7 @@ namespace OficinaMecanicaAPI.Controllers
             return Ok(cliente);
         }
 
+        // Eliminar um determinado cliente pelo seu id
         [HttpDelete]
         [Route("{id:guid}")]
         public IActionResult DeleteCliente(Guid id) {
