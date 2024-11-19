@@ -1,3 +1,4 @@
+﻿namespace OficinaMecanicaAPI.Models
 public class Veiculo {
 
     public Guid Id { get; set; }
